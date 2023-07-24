@@ -5,7 +5,7 @@ import (
 
 	ut "github.com/go-playground/universal-translator"
 	gpgvalidator "github.com/go-playground/validator/v10"
-	"github.com/wisesight/go-api-template/pkg/validator"
+	"github.com/koskuma/go-worker-workshop/pkg/validator"
 )
 
 const (

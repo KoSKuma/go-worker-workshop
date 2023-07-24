@@ -4,11 +4,11 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/koskuma/go-worker-workshop/pkg/entity"
+	"github.com/koskuma/go-worker-workshop/pkg/repository/mocks"
+	"github.com/koskuma/go-worker-workshop/pkg/usecase"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/suite"
-	"github.com/wisesight/go-api-template/pkg/entity"
-	"github.com/wisesight/go-api-template/pkg/repository/mocks"
-	"github.com/wisesight/go-api-template/pkg/usecase"
 )
 
 type UserUsecaseSuite struct {

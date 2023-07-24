@@ -9,15 +9,15 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/koskuma/go-worker-workshop/cmd/api/handler"
+	"github.com/koskuma/go-worker-workshop/cmd/api/middleware"
+	"github.com/koskuma/go-worker-workshop/cmd/api/route"
+	"github.com/koskuma/go-worker-workshop/config"
+	"github.com/koskuma/go-worker-workshop/pkg/adapter"
+	"github.com/koskuma/go-worker-workshop/pkg/log"
+	"github.com/koskuma/go-worker-workshop/pkg/repository"
+	"github.com/koskuma/go-worker-workshop/pkg/validator"
 	"github.com/labstack/echo/v4"
-	"github.com/wisesight/go-api-template/cmd/api/handler"
-	"github.com/wisesight/go-api-template/cmd/api/middleware"
-	"github.com/wisesight/go-api-template/cmd/api/route"
-	"github.com/wisesight/go-api-template/config"
-	"github.com/wisesight/go-api-template/pkg/adapter"
-	"github.com/wisesight/go-api-template/pkg/log"
-	"github.com/wisesight/go-api-template/pkg/repository"
-	"github.com/wisesight/go-api-template/pkg/validator"
 )
 
 // @title Wisesight API Template

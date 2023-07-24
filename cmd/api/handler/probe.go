@@ -3,9 +3,9 @@ package handler
 import (
 	"net/http"
 
+	"github.com/koskuma/go-worker-workshop/pkg/adapter"
+	"github.com/koskuma/go-worker-workshop/pkg/log"
 	"github.com/labstack/echo/v4"
-	"github.com/wisesight/go-api-template/pkg/adapter"
-	"github.com/wisesight/go-api-template/pkg/log"
 	"go.mongodb.org/mongo-driver/mongo/readpref"
 )
 

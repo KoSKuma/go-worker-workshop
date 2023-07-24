@@ -5,7 +5,7 @@ import (
 
 	"github.com/labstack/echo/v4"
 
-	"github.com/wisesight/go-api-template/pkg/apperror"
+	"github.com/koskuma/go-worker-workshop/pkg/apperror"
 )
 
 func ResponseError(c echo.Context, err error) error {

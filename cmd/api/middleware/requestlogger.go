@@ -3,8 +3,8 @@ package middleware
 import (
 	"io"
 
+	"github.com/koskuma/go-worker-workshop/pkg/log"
 	"github.com/labstack/echo/v4"
-	"github.com/wisesight/go-api-template/pkg/log"
 )
 
 func RequestLoggerMiddleware(logger log.ILogger) echo.MiddlewareFunc {

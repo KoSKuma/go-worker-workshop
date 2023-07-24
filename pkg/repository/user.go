@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/wisesight/go-api-template/pkg/adapter"
-	"github.com/wisesight/go-api-template/pkg/apperror"
-	"github.com/wisesight/go-api-template/pkg/entity"
+	"github.com/koskuma/go-worker-workshop/pkg/adapter"
+	"github.com/koskuma/go-worker-workshop/pkg/apperror"
+	"github.com/koskuma/go-worker-workshop/pkg/entity"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )

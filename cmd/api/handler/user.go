@@ -6,13 +6,13 @@ import (
 	"time"
 
 	gpgvalidator "github.com/go-playground/validator/v10"
+	"github.com/koskuma/go-worker-workshop/constant"
+	"github.com/koskuma/go-worker-workshop/pkg/entity"
+	"github.com/koskuma/go-worker-workshop/pkg/helper"
+	"github.com/koskuma/go-worker-workshop/pkg/log"
+	"github.com/koskuma/go-worker-workshop/pkg/usecase"
+	"github.com/koskuma/go-worker-workshop/pkg/validator"
 	"github.com/labstack/echo/v4"
-	"github.com/wisesight/go-api-template/constant"
-	"github.com/wisesight/go-api-template/pkg/entity"
-	"github.com/wisesight/go-api-template/pkg/helper"
-	"github.com/wisesight/go-api-template/pkg/log"
-	"github.com/wisesight/go-api-template/pkg/usecase"
-	"github.com/wisesight/go-api-template/pkg/validator"
 )
 
 type IUser interface {

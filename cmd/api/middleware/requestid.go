@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/google/uuid"
+	"github.com/koskuma/go-worker-workshop/pkg/log"
 	"github.com/labstack/echo/v4"
-	"github.com/wisesight/go-api-template/pkg/log"
 )
 
 const XRequestID string = "X-Request-Id"

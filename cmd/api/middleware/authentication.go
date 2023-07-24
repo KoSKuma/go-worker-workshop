@@ -4,11 +4,11 @@ import (
 	"net/http"
 
 	"github.com/golang-jwt/jwt/v4"
+	"github.com/koskuma/go-worker-workshop/constant"
+	"github.com/koskuma/go-worker-workshop/pkg/entity"
 	echojwt "github.com/labstack/echo-jwt/v4"
 	"github.com/labstack/echo/v4"
 	"github.com/mitchellh/mapstructure"
-	"github.com/wisesight/go-api-template/constant"
-	"github.com/wisesight/go-api-template/pkg/entity"
 )
 
 func NewVerifyJWTAuth(secret interface{}, signingMethod string) echo.MiddlewareFunc {

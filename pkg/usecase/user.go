@@ -1,8 +1,8 @@
 package usecase
 
 import (
-	"github.com/wisesight/go-api-template/pkg/entity"
-	"github.com/wisesight/go-api-template/pkg/repository"
+	"github.com/koskuma/go-worker-workshop/pkg/entity"
+	"github.com/koskuma/go-worker-workshop/pkg/repository"
 )
 
 type IUser interface {
